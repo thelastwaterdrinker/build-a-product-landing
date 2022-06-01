@@ -1,0 +1,142 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles.css"> 
+<title>Page Title</title>
+
+<header id = "header"><div class = "logo"><img id = "header-img" src = "https://www.lar.com/wp-content/uploads/2020/05/lar_logo__pic_rgb.png" alt = "LAR-logo"/></div>
+<nav id = "nav-bar">
+  <ul>
+    <section id = "aboutus"></section>
+    <li><a class = "nav-link" href = "#aboutus">About us</a>
+      </li>
+      <section id = "products"></section>
+    <li><a class = "nav-link" href = "#products">Products</a></li>
+    <section id = "contact"></section>
+    <li><a class = "nav-link" href = "#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<div class = "container"></div>
+<section id = "product-video">
+  <h2></h2>
+  <form id = "form" action = "https://www.freecodecamp.com/email-submit">
+  <input id = "email" placeholder = "please enter your e-mail" type = "email" name = "email">
+  <input id = "submit" type = "submit"></input>
+  </form>
+<section id = "how-it-works">
+        <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe></section>
+<section>
+ <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2022, Original Tugba</span>
+    </footer>
+    </section>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+a {
+  color: #0689;
+  text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
+.logo > img {
+  width: 100%;
+}
+
+nav {
+  font-weight: 400;
+}
+#nav-bar > ul > li {
+  background-color: #ddd;
+  padding: 30px;
+  grid-auto-columns: auto;
+}
+
+#nav-bar > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+
+
+
+
+
+
+#nav-bar {
+  position: fixed;
+  justify-content: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+  background-color: #ddd;
+
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer > ul > li {
+  padding: 5px 0px;
+  margin: 5px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+** end of undefined **
+
